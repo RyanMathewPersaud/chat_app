@@ -1,8 +1,16 @@
 {
-  "name": "chat_ app",
+  "name": "chat_app",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/RyanMathewPersaud/chat_app.git",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.1.2"
+  },
+  "scripts": {
+    "start": "nodemon ./backend/index.js"
+  }
 }

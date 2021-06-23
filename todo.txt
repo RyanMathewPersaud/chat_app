@@ -1,0 +1,7 @@
+Day #2:
+----------
+(`1) enter something in text box and send to backend
+
+events:
+- get message
+- send message
